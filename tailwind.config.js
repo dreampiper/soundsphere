@@ -11,6 +11,12 @@ module.exports = {
         DEFAULT: ["var(--font-montserrat)"],
       },
       colors: {
+        grey: {
+          100: "#42464E",
+          200: "#303136",
+          300: "#212226",
+          400: "#18191D",
+        },
         primary: {
           100: "#80C1F9",
           200: "#40A3F7",
