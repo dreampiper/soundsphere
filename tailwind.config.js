@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        DEFAULT: ["var(--font-montserrat)"],
+      },
       colors: {
         primary: {
           100: "#80C1F9",
@@ -22,7 +25,7 @@ module.exports = {
         search: "#212226",
         nav: "#212226",
         body: "#18191D",
-        card: "#1E1F23",
+        card: "#1E1F24",
         profile: "#41464F",
       },
     },
