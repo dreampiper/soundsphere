@@ -45,7 +45,7 @@ export default function DaoCard({ id }: { id: string }) {
             {members}
           </p>
         </div>
-        <button className="flex gap-3 justify-center items-center w-max bg-primary-300 text-white py-1 px-5 rounded-[12px]">
+        <button className="flex gap-3 justify-center items-center w-max bg-primary-300 text-white py-1 px-5 rounded-[90px]">
           Join
         </button>
       </div>
