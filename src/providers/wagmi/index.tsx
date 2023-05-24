@@ -14,7 +14,7 @@ const config = createConfig({
   publicClient,
   webSocketPublicClient,
   connectors: [
-    new MetaMaskConnector({ chains }),
+    // new MetaMaskConnector({ chains }),
     new InjectedConnector({
       chains,
       options: {
