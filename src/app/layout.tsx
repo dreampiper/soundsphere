@@ -2,6 +2,7 @@ import { Montserrat } from "next/font/google";
 import "./globals.css";
 
 import Nav from "@/components/Nav";
+import RootProvider from "@/providers/provider";
 
 const montserrat = Montserrat({
   subsets: ["latin"],
@@ -22,10 +23,12 @@ export default function RootLayout({
   return (
     <html className={`${montserrat.variable}`} lang="en">
       <body className={"flex h-full"}>
-        <Nav />
-        <main className="flex gap-12 min-h-screen w-full flex-col items-center p-8 px-24 overflow-scroll">
-          {children}
-        </main>
+        <RootProvider>
+          <Nav />
+          <main className="flex gap-12 min-h-screen w-full flex-col items-center p-8 px-24 overflow-scroll">
+            {children}
+          </main>
+        </RootProvider>
       </body>
     </html>
   );
