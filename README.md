@@ -21,7 +21,7 @@ Users have the ability to create their own music Data Dao or request to join exi
 
 ## Technical Details
 
-We hosted the smart contracts on hyperspace testnet and used the following tools to build the platform: Lit Protocol, Lighthouse, Spheron, and Polybase. The [SoundSphere]("./contracts/soundSphere.sol") smart contract is used to govern the actions between the DAOs and the artists, track music played and also distribute revenue stream to both parties, while our [SST]("./contracts/soundSphereToken.sol) token is for incentives and also paying of subscription. With this exploration, we wanted to focus on these main functions and features for this hackathon, which we believe are the most important for the platform:
+We hosted the smart contracts on hyperspace testnet and used the following tools to build the platform: Lit Protocol, Lighthouse, Spheron, and Polybase. The [SoundSphere](./contracts/soundSphere.sol) smart contract is used to govern the actions between the DAOs and the artists, track music played and also distribute revenue stream to both parties, while our [SST](./contracts/soundSphereToken.sol) token is for incentives and also paying of subscription. With this exploration, we wanted to focus on these main functions and features for this hackathon, which we believe are the most important for the platform:
 
 1. Ability for any user to create and add a new data DAOs, to existing data DAOs that anyone—artists or listeners—can join and listen to music, each new DAO is stored on Polybase at the moment ![Create a new data DAO](./src/data/SoundSphere-1.png "Create a new data DAO")
 
