@@ -5,7 +5,7 @@ SoundSphere is a platform that enables users to create and manage their own musi
 
 ## Team Members
 
-this project was built and designed by a team of 2 people [Liz](mailto:cre8ivliz@gmail.com) and [Kelvin Praises](mailto:cre8ivliz@gmail.com)
+this project was built and designed by a team of 2 people [Liz](mailto:cre8ivliz@gmail.com) and [Kelvin Praises](mailto:kelvinpraises@gmail.com)
 
 ## Inspiration
 
